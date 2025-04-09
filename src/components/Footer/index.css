@@ -1,0 +1,247 @@
+.wrapper {
+    width: 96.5%;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding-bottom: 0px;
+        height: 90vh;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .wrapper {
+        padding: 30px;
+        width: 100%;
+    }
+}
+
+
+.letterAndcontact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+    .letterAndcontact {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px;
+    }
+}
+
+.footerHeading {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footersignInDescription {
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.email {
+    height: 40px;
+    width: 300px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .email {
+        width: 200px;
+        height: 20px;
+        padding: 5px;
+    }
+}
+
+.subscribeBtn {
+    height: 40px;
+    width: 140px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    background-color: #000000;
+    outline: none;
+    border: 1px solid;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .subscribeBtn {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+.contactDetails {
+    padding-top: 30px;
+}
+
+.contactUsHeading {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.number {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.customerCare {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.currencyHeading {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .contactUs {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .callUs-container {
+        display: none;
+    }
+}
+
+.smallContactUsdetails {
+    display: flex;
+}
+
+.currencyContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.countryImage {
+    width: 20px;
+    border-radius: 40px;
+}
+
+.diamond {
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.usd {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.smallText {
+    font-size: 13px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .smallText {
+        display: none;
+    }
+}
+
+
+.actionsLinksContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 768px) {
+    .actionsLinksContainer {
+        flex-direction: column;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .largeContainer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .samllConatiner {
+        display: none;
+    }
+}
+
+.containerHeading {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+.smallContainerHeading {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.smallHeadingAndAngleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linksContainer {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 2;
+}
+
+.links {
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.metta-museAccepts {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.paymentImage {
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .paymentImage {
+        width: 40px;
+    }
+}
+
+.hrbreak {
+    width: 80%;
+}
