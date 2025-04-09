@@ -19,7 +19,7 @@ This project is a Product Listing Page (PLP) implemented using **React.js** and 
 
 ## 🚀 Live Demo
 
-🔗 [Click here to view the deployed app on Netlify](#)  
+🔗 [Click here to view the deployed app on Netlify](https://appscrip-baji-assignment.netlify.app/)  
 
 
 ---
